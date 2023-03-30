@@ -1,0 +1,19 @@
+{
+    "SupportTickets": true,
+    "Product": true,
+    "Dashboard": true,
+    "Order": true,
+    "Bucket": false,
+    "Bag": true,
+    "SupportDesk": true,
+    "Resources": true,
+    "Zoom": true,
+    "Notification": true,
+    "Subscriptions": true,
+    "Purchase": true,
+    "User": true,
+    "Checkout": true,
+    "Setting": true,
+    "Webhook": true,
+    "SupportTicket": true
+}

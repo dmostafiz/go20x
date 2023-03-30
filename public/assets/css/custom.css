@@ -1,0 +1,518 @@
+.main-section{
+	background-image: url("/assets/images/car.png");
+    width: 100%;
+    height: 730px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.main-section .child-sec{
+	padding-top: 10%;
+}
+.main-section .incredible{
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 5% 15%;
+	background: rgb(19, 21, 22,0.7);
+}
+
+.main-section .incredible h1{
+	font-family: 'Poppins';
+	font-size: 46px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 60px;
+    letter-spacing: 1px;
+}
+.yellow-underline{
+	color: #dda81b;
+	text-decoration: underline;
+}
+.yellow{
+	color: #dda81b;
+}
+.main-section .incredible p{
+	font-family: 'Poppins';
+    line-height: 35px;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+
+@media only screen and (max-width: 992px) {
+	
+	.main-section .incredible{
+		margin-left: 0%;
+		margin-right: 0%;
+		padding: 15% 5%;
+		background: rgb(19, 21, 22,0.7);
+	}
+}
+
+.send-info{
+	background: #12181f;
+}
+.send-info h4{
+	font-family: 'Poppins';
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+.send-info .form-control{
+	border-radius: 0px;
+	border:1px solid #dda81b;
+	background: transparent;
+	color: #fff;
+}
+.send-info .form-control:focus{
+	box-shadow: none;
+}
+.send-info input::placeholder {
+    font-family: 'Poppins';
+    font-size: 14px;
+}
+.send-info .btn-send{
+	background: #dda81b;
+    color: #fff;
+    padding: 35px;
+    font-size: 14px;
+    font-family: 'Poppins';
+}
+.send-info .btn-send:hover{
+	border: 1px solid #dda81b;
+	color: #fff;
+}
+@media only screen and (max-width: 992px) {
+	.send-info h4{
+		text-align: center;
+		font-size: 60px;
+        line-height: 80px;
+        margin-bottom:30px;
+	}
+	.send-info .btn-send{
+		width: 100%;
+		margin-top: 10px;
+		padding: 20px;
+		font-size:30px;
+	}
+	.send-info .form-control{
+		line-height: 60px;
+		font-size: 30px;ss
+	}
+	.send-info input::placeholder{
+	    text-align:center;
+	    font-size:30px;
+	}
+}
+
+.phd-chemist{
+	background-image: url("/assets/images/phd.png");
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.phd-chemist .child-sec{
+	padding-top: 5%;
+}
+.phd-chemist h2{
+	font-family: 'Poppins';
+	font-weight: bold;
+	line-height: 40px;
+}
+.phd-chemist .review{
+	margin-bottom: 40px;
+}
+.phd-chemist .review-img{
+	border-right: 1px solid;
+}
+
+.phd-chemist .review-text{
+	font-family: 'Poppins';
+    line-height: 25px;
+    color: #363636;
+    font-size: 15px;
+}
+
+
+@media only screen and (max-width: 992px) {
+	.phd-chemist h2{
+		text-align: center;
+	}
+	.phd-chemist{
+		background-image: url("/assets/images/phd-2.png");
+		height: 100%;
+	}
+	.phd-chemist .review-text{
+		display: block;
+		padding:0px !important;
+		font-size: 24px;
+        line-height: 35px;
+	}
+	.phd-chemist .review-img{
+		margin-bottom: 20px;
+		padding-bottom: 20px;
+		border-right: none;
+		border-bottom:1px solid;
+		width:30%;
+	}
+	.phd-chemist .review{
+		display: block !important;
+		text-align: center;
+	}
+    
+}
+
+
+.engine-type{
+	background: #12181f;
+}
+.engine-type .container{
+	max-width: 1740px;
+}
+.engine-type .engine-title , .testimonial .testimonial-title{
+	font-family: 'Poppins';
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+.engine-type .engine-heading , .testimonial .testimonial-heading{
+	font-family: 'Poppins';
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+.engine-type .icon-box i{
+
+	border: 1px solid #fff;
+    padding: 18px 20px;
+    background: #dda81b;
+    border-radius: 25px 0px 25px 0px;
+    font-size: 30px;
+}
+.engine-type .icon-title{
+	font-family: 'Poppins';
+}
+.engine-type .icon-detail{
+	font-family: 'Poppins';
+	color: #cfcfcf;
+	font-size: 14px;
+}
+
+
+
+.video-section{
+	background-image: url("/assets/images/phd-2.png");
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.video-section .child-sec{
+	padding-top: 5%;
+}
+
+.video-section .video-heading{
+	font-family: 'Poppins';
+	color: #12181f;
+	font-weight: bold;
+	margin-bottom: 70px;
+	letter-spacing: 1px;
+}
+.video-section .video-details{
+	font-family: 'Poppins';
+    line-height: 25px;
+    margin-bottom: 10px;
+    color: #181818;
+    font-weight: 600;
+    padding-left: 20px;
+    word-spacing: 2px;
+}
+@media only screen and (max-width: 992px) {
+	.video-section .child-sec{
+		padding-top: 10%;
+	}
+	.video-section .video-details{
+		text-align: center;
+		font-size: 21px;
+        line-height: 32px;
+	}
+	.video-section .video-heading{
+		padding-bottom: 10px !important;
+	}
+}
+
+
+
+.testimonial{
+	background: #12181f;
+}
+.testimonial .testimonial-wrapp{
+	background: #1c2733;
+}
+.testimonial .testimonial-detail{
+	font-family: 'Poppins';
+    line-height: 26px;
+    text-align: center;
+    padding: 40px;
+    word-spacing: 1px;
+}
+.testimonial .testimonial-owner{
+	background: #dda81b;
+	position: relative;
+}
+.testimonial .testimonial-owner h5,p{
+	font-family: 'Poppins';
+}
+
+.testimonial-owner img{
+	position: absolute;
+    top: -30px;
+    width: 150px;
+    height: 100px;
+    right: -15px;
+}
+
+
+.result-section{
+	background-image: url("/assets/images/phd-2.png");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.result-section .child-sec{
+	padding-top: 5%;
+}
+
+.result-section .result-heading{
+	font-family: 'Poppins';
+	color: #12181f;
+	font-weight: bold;
+	margin-bottom: 80px;
+	letter-spacing: 1px;
+}
+.result-section .img-elipse{
+	position: relative;
+	text-align: center;
+} 
+.result-section span.elipse-under{
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+    font-weight: 600;
+    font-family: 'Poppins';
+    font-size: 21px;
+    color: #dda81b;
+}
+.result-section .result-details h5{
+	font-family: 'Poppins';
+	color: #262626;
+	font-weight: bold;
+}
+.result-section .result-details p{
+	font-family: 'Poppins';
+	color: #4d4d4d;
+	line-height: 25px;
+}
+
+.owl-carousel  .item{
+	margin-right: 15px;
+	margin-left: 15px;
+}
+.owl-theme .owl-dots .owl-dot.active span{
+	background: #dda81b !important;
+    width: 40px !important;
+    height: 5px !important;
+}
+.owl-theme .owl-dots .owl-dot span {
+    width: 15px !important;
+    height: 5px !important;
+    margin: 5px 7px;
+    background: #595959 !important;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity .2s ease;
+    border-radius: 30px;
+} 
+.owl-carousel .owl-item img{
+	width: unset !important;
+}
+.footer{
+	background: #12181f;
+}
+.footer p{
+	font-family: 'Poppins';
+	color: #a1a1a1;
+}
+.progress{
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    background: none;
+    margin: 0 auto;
+    box-shadow: none;
+    position: relative;
+}
+.progress:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.progress > span{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+.progress .progress-left{
+    left: 0;
+}
+.progress .progress-bar{
+    width: 100%;
+    height: 100%;
+    background: none;
+    border-width: 2px;
+    border-style: solid;
+    position: absolute;
+    top: 0;
+}
+.progress .progress-left .progress-bar{
+    left: 100%;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-left: 0;
+    -webkit-transform-origin: center left;
+    transform-origin: center left;
+}
+.progress .progress-right{
+    right: 0;
+}
+.progress .progress-right .progress-bar{
+    left: -100%;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-right: 0;
+    -webkit-transform-origin: center right;
+    transform-origin: center right;
+    animation: loading-1 1.8s linear forwards;
+}
+.progress .progress-value{
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    color: #fff;
+    line-height: 135px;
+    text-align: center;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    font-weight: 600;
+    font-family: 'Poppins';
+    font-size: 21px;
+    color: #dda81b;
+}
+.progress.black .progress-bar{
+    border-color: #333;
+}
+.progress.black .progress-left .progress-bar{
+    animation: loading-2 1.5s linear forwards 1.8s;
+}
+
+@keyframes loading-1{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+}
+@keyframes loading-2{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(144deg);
+        transform: rotate(144deg);
+    }
+}
+@keyframes loading-3{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+}
+@keyframes loading-4{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(36deg);
+        transform: rotate(36deg);
+    }
+}
+@keyframes loading-5{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(126deg);
+        transform: rotate(126deg);
+    }
+}
+@media only screen and (max-width: 992px){
+    .progress{ margin-bottom: 20px; }
+    .result-details{margin-bottom:80px;}
+    .engine-type .icon-box i{
+        font-size:85px !important;
+        
+    }
+    .engine-type .icon-title{
+        font-size:40px !important;
+    }
+    .engine-type .icon-detail{
+        font-size:24px !important;
+        margin-bottom:80px;
+    }
+    .engine-type .engine-heading{
+        font-size:60px !important;
+    }
+    .engine-type .engine-title{
+        font-size:23px !important;
+    }
+    .result-section .result-details h5{
+        font-size:30px !important;
+    }
+    .progress .progress-value{
+        font-size:36px !important;
+    }
+    .result-section .result-details p{
+        font-size:18px !important;
+    }
+    .main-section .incredible p{
+        font-size: 24px !important;
+        line-height: 50px !important;
+    }
+    .testimonial .testimonial-detail{
+            line-height: 50px;
+            font-size: 30px;
+    }
+}

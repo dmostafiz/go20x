@@ -1,0 +1,7 @@
+/node_modules
+node_modules
+/vendor
+.env
+/resources/views/NEW
+test.zip
+/test

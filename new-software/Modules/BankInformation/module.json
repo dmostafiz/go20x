@@ -1,0 +1,11 @@
+{
+    "name": "BankInformation",
+    "alias": "bankinformation",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\BankInformation\\Providers\\BankInformationServiceProvider"
+    ],
+    "files": []
+}

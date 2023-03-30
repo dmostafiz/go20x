@@ -1,0 +1,11 @@
+{
+    "name": "ShippingAddress",
+    "alias": "shippingaddress",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\ShippingAddress\\Providers\\ShippingAddressServiceProvider"
+    ],
+    "files": []
+}

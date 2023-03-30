@@ -1,0 +1,11 @@
+{
+    "name": "Bag",
+    "alias": "bag",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Bag\\Providers\\BagServiceProvider"
+    ],
+    "files": []
+}
